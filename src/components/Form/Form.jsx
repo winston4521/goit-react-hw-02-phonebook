@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import shortid from 'shortid';
-import PropTypes from 'prop-types';
+
 import css from './Form.module.css';
 const INITIAL_STATE = {
   name: '',
