@@ -15,14 +15,12 @@ export const Contacts = ({ contacts, filteredContent, handleDelete }) => {
           </span>
 
           <>
-            <a
+            <button
               href="/"
               className={css.delete__btn}
               type="button"
               onClick={() => handleDelete(id)}
-            >
-              
-            </a>
+            ></button>
           </>
         </li>
       ))}

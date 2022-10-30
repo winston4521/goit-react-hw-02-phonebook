@@ -17,7 +17,7 @@
 }
 .delete__btn {
   content: '';
-
+  border: none;
   align-self: baseline;
   display: inline-block;
   background-image: url(../../images/icons8-trash.svg);
@@ -25,4 +25,5 @@
   background-repeat: no-repeat;
   width: 30px;
   height: 30px;
+  background-color: transparent;
 }
