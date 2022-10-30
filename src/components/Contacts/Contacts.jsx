@@ -16,7 +16,6 @@ export const Contacts = ({ contacts, filteredContent, handleDelete }) => {
 
           <>
             <button
-              href="/"
               className={css.delete__btn}
               type="button"
               onClick={() => handleDelete(id)}
